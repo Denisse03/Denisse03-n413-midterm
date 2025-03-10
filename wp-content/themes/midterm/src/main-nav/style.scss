@@ -1,0 +1,32 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-custom-blocks-main-nav {
+	background-color: #21759b;
+	color: #fff;
+	padding: 2px;
+
+	ul {
+		height: 60px;
+		list-style: none;
+		display: flex;
+		align-items: center;
+		gap: 40px;
+
+		a {
+			text-decoration: none;
+		}
+
+		li {
+			font-size: 18px;
+		}
+
+		li:first-child {
+			font-size: 24px;
+		}
+	}
+}

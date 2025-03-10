@@ -1,0 +1,86 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{ "color": "#2ECC71", "name": "Primary", "slug": "primary" },
+				{ "color": "#FA1B0A", "name": "Secondary", "slug": "secondary" },
+				{ "color": "#9B59B6", "name": "Accent", "slug": "accent" },
+				{ "color": "#B5FA0A", "name": "Tri", "slug": "tri" },
+				{
+					"color": "#e4ecf0",
+					"name": "Background",
+					"slug": "background"
+				},
+				{ "color": "#000000", "name": "Text", "slug": "text" }
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var:preset|color|background"
+		},
+		"elements": {
+			"h3": {
+				"spacing": {
+					"margin": {
+						"left": "60px"
+					}
+				}
+			},
+
+			"h2": {
+				"spacing": {
+					"margin": {
+						"left": "60px"
+					}
+				}
+			},
+
+			"h5": {
+				"spacing": {
+					"margin": {
+						"left": "60px"
+					}
+				}
+			},
+
+			"h4": {
+				"spacing": {
+					"margin": {
+						"left": "60px"
+					}
+				}
+			},
+
+			"button": {
+				"color": {
+					"background": "#FA970A"
+				},
+
+				"spacing": {
+					"margin": {
+						"left": "60px"
+					}
+				}
+			}
+		},
+		"blocks": {
+			"core/paragraph": {
+				"spacing": {
+					"margin": {
+						"left": "60px"
+					}
+				}
+			},
+
+			"core/navigation": {
+				"color": {
+					"background": "#3498D8"
+				}
+			}
+		}
+	}
+}
